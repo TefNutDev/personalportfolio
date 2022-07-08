@@ -15,20 +15,20 @@ const Graphics = () => (
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <Section>
           <a href="../assets/LOCGuide.pdf" download="LOC_Guide">
-              <Image src='/public/images/locT.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
+              <Image src='/images/locT.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
           </a>
           <Text textAlign={'center'}>62 Page Technical & Fundamental Analysis Guide from 2017/8</Text>
           </Section>
           <Section>
           <a href="../assets/TAexamples.pdf" download="TA_Examples">
-              <Image src='/public/images/TASamples.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
+              <Image src='/images/TASamples.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
               
           </a>
           <Text textAlign={'center'}>Technical Analysis Collection of Old TA</Text>
           </Section>
           <Section>
           <a href="../assets/BELOBP.pdf" download="Business_Plan">
-              <Image src='/public/images/beloT.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
+              <Image src='/images/beloT.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
           </a>
           <Text textAlign={'center'}>Business Plan Creation for Activewear Company</Text>
           </Section>
@@ -39,14 +39,14 @@ const Graphics = () => (
       </Heading>
       <Section delay={0.23}>
         <SimpleGrid columns={[1,2,2]} gap={6}>
-          <Image src='/public/images/glow.png' alt='/' width='500' height='350' />
-          <Image src='/public/images/HASHBROS.png' alt='/' width='500' height='350' />
-          <Image src='/public/images/5rnjs.png' alt='/' width='500' height='350' />
-          <Image src='/public/images/5rwp.png' alt='/' width='500' height='350' />
-          <Image src='/public/images/Horus.png' alt='/' width='1000' height='350' />
-          <Image src='/public/images/dfblogo.png' alt='/' width='500' height='350' />
-          <Image src='/public/images/evanlogo.png' alt='/' width='500' height='350' />
-          <Image src='/public/images/hrsl.png' alt='/' width='500' height='350' />
+          <Image src='/images/glow.png' alt='/' width='500' height='350' />
+          <Image src='/images/HASHBROS.png' alt='/' width='500' height='350' />
+          <Image src='/images/5rnjs.png' alt='/' width='500' height='350' />
+          <Image src='/images/5rwp.png' alt='/' width='500' height='350' />
+          <Image src='/images/Horus.png' alt='/' width='1000' height='350' />
+          <Image src='/images/dfblogo.png' alt='/' width='500' height='350' />
+          <Image src='/images/evanlogo.png' alt='/' width='500' height='350' />
+          <Image src='/images/hrsl.png' alt='/' width='500' height='350' />
         </SimpleGrid>
       </Section>
 
