@@ -38,7 +38,7 @@ const Page = () => (
           }}
         >
           <Image
-            maxWidth="370px"
+            maxWidth="360px"
             display="inline-block"
             src="/images/bluepc.png"
             alt="pcblue"
