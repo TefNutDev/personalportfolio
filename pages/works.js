@@ -5,6 +5,7 @@ import thumbRE from '../public/images/reT.png';
 import thumbdfb from '../public/images/dfbsT.png';
 import thumbweather from '../public/images/weatherT.png';
 import thumbhorus from '../public/images/hrsT.png';
+import thumbT2D from '../public/images/T2DTLogo.png'
 import Layout from "../components/layouts/article";
 
 const Works = () => {
@@ -16,6 +17,11 @@ const Works = () => {
             </Heading>
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
+            <Section>
+                    <WorkGridItem id='wordpressStore' title='WordPress Mystery Box Store' thumbnail={thumbT2D}>
+                        A Real Estate Rent & Sales App built with Next.js. Responsive on all devices.
+                    </WorkGridItem>
+                </Section>
                 <Section>
                     <WorkGridItem id='realestate' title='Real Estate Web App' thumbnail={thumbRE}>
                         A Real Estate Rent & Sales App built with Next.js. Responsive on all devices.
