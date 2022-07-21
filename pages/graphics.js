@@ -24,7 +24,7 @@ const Graphics = () => (
               />
             </a>
             <Text textAlign={'center'}>
-              Sample 30+ Social Media Posts, Designed & Created by me engage our community. 
+              Sample 30+ Social Media Posts, Designed & Created by me, to engage and grow our community. 
             </Text>
           </Section>
           <Section>
