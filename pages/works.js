@@ -7,6 +7,7 @@ import thumbweather from '../public/images/weatherT.png';
 import thumbhorus from '../public/images/hrsT.png';
 import thumbT2D from '../public/images/T2DTLogo.png'
 import Layout from "../components/layouts/article";
+import thumbTHC from "../public/images/thcThumb.png"
 
 const Works = () => {
     return (
@@ -18,13 +19,18 @@ const Works = () => {
 
             <SimpleGrid columns={[1,1,2]} gap={6}>
             <Section>
+                    <WorkGridItem id='thclanding' title='Cannabis Club Landing Page' thumbnail={thumbTHC}>
+                        A Cannabis Social Club Landing Page built with Next.js & React Responsive on all devices. SEO Optimized, lazy loading images, contact feature, age verification.
+                    </WorkGridItem>
+                </Section>
+            <Section>
                     <WorkGridItem id='wordpressStore' title='WordPress Mystery Box Store' thumbnail={thumbT2D}>
-                        A Real Estate Rent & Sales App built with Next.js. Responsive on all devices.
+                        Wordpress Mystery Box Store selling Arts & Crafts and other hobby loving packages.
                     </WorkGridItem>
                 </Section>
                 <Section>
                     <WorkGridItem id='realestate' title='Real Estate Web App' thumbnail={thumbRE}>
-                        A Real Estate Rent & Sales App built with Next.js. Responsive on all devices.
+                        A Real Estate Rent & Sales App built with Next.js & React. Responsive on all devices.
                     </WorkGridItem>
                 </Section>
                 <Section>
