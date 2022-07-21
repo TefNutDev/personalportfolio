@@ -76,12 +76,12 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-          
+        <ThemeToggleButton />
           <Box
             ml={2}
             color={'blue.600'}
             display={{ base: 'inline-block', md: 'none' }}
-          ><ThemeToggleButton />
+          >
             <Menu>
               <MenuButton
                 as={IconButton}
