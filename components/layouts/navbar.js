@@ -76,8 +76,12 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-            <ThemeToggleButton />
-          <Box ml={2} color={'blue.600'} display={{ base: 'inline-block', md: 'none' }}>
+          
+          <Box
+            ml={2}
+            color={'blue.600'}
+            display={{ base: 'inline-block', md: 'none' }}
+          ><ThemeToggleButton />
             <Menu>
               <MenuButton
                 as={IconButton}
@@ -86,15 +90,15 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                  <NextLink href='/' passHref>
-                      <MenuItem as={Link}>About</MenuItem>
-                  </NextLink>
-                  <NextLink href='/works' passHref>
-                      <MenuItem as={Link}>Works</MenuItem>
-                  </NextLink>
-                  <NextLink href='/graphics' passHref>
-                      <MenuItem as={Link}>Graphics</MenuItem>
-                  </NextLink>
+                <NextLink href="/" passHref>
+                  <MenuItem as={Link}>About</MenuItem>
+                </NextLink>
+                <NextLink href="/works" passHref>
+                  <MenuItem as={Link}>Works</MenuItem>
+                </NextLink>
+                <NextLink href="/graphics" passHref>
+                  <MenuItem as={Link}>Graphics</MenuItem>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>
