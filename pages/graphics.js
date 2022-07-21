@@ -9,47 +9,83 @@ const Graphics = () => (
   <Layout title="graphics">
     <Container>
       <Heading as="h4" fontSize={20} mb={4}>
-        Custom Documents & Samples 
+        Custom Documents & Samples
       </Heading>
       <Section delay={0.14}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <Section>
-          <a href="../assets/LOCGuide.pdf" download="LOC_Guide">
-              <Image src='/images/locT.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
-          </a>
-          <Text textAlign={'center'}>62 Page Technical & Fundamental Analysis Guide from 2017/8</Text>
+        <Section>
+            <a href="../assets/ContentCreation.pdf" download="Content_Creation_Evan_Meleady">
+              <Image
+                src="/images/ContentThumb.png"
+                alt=""
+                width="745px"
+                height="540px"
+                className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              />
+            </a>
+            <Text textAlign={'center'}>
+              Sample 30+ Social Media Posts, Designed & Created by me engage our community. 
+            </Text>
           </Section>
           <Section>
-          <a href="../assets/TAexamples.pdf" download="TA_Examples">
-              <Image src='/images/TASamples.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
-              
-          </a>
-          <Text textAlign={'center'}>Technical Analysis Collection of Old TA</Text>
+            <a href="../assets/LOCGuide.pdf" download="LOC_Guide">
+              <Image
+                src="/images/locT.png"
+                alt=""
+                width="745px"
+                height="540px"
+                className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              />
+            </a>
+            <Text textAlign={'center'}>
+              62 Page Technical & Fundamental Analysis Guide from 2017/8
+            </Text>
           </Section>
           <Section>
-          <a href="../assets/BELOBP.pdf" download="Business_Plan">
-              <Image src='/images/beloT.png' alt='' width='745px' height='540px' className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"/>
-          </a>
-          <Text textAlign={'center'}>Business Plan Creation for Activewear Company</Text>
+            <a href="../assets/TAexamples.pdf" download="TA_Examples">
+              <Image
+                src="/images/TASamples.png"
+                alt=""
+                width="745px"
+                height="540px"
+                className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              />
+            </a>
+            <Text textAlign={'center'}>
+              Technical Analysis Collection of Old TA
+            </Text>
+          </Section>
+          <Section>
+            <a href="../assets/BELOBP.pdf" download="Business_Plan">
+              <Image
+                src="/images/beloT.png"
+                alt=""
+                width="745px"
+                height="540px"
+                className="py-2 px-2 m-auto rounded-full shadow-lg shadown-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              />
+            </a>
+            <Text textAlign={'center'}>
+              Business Plan Creation for Activewear Company
+            </Text>
           </Section>
         </SimpleGrid>
       </Section>
-      <Heading as='h4' fontSize={20} mb={4}>
+      <Heading as="h4" fontSize={20} mb={4}>
         Custom Logos & Graphics
       </Heading>
       <Section delay={0.23}>
-        <SimpleGrid columns={[1,2,2]} gap={6}>
-          <Image src='/images/glow.png' alt='/' width='500' height='350' />
-          <Image src='/images/HASHBROS.png' alt='/' width='500' height='350' />
-          <Image src='/images/5rnjs.png' alt='/' width='500' height='350' />
-          <Image src='/images/5rwp.png' alt='/' width='500' height='350' />
-          <Image src='/images/Horus.png' alt='/' width='1000' height='350' />
-          <Image src='/images/dfblogo.png' alt='/' width='500' height='350' />
-          <Image src='/images/hrsl.png' alt='/' width='500' height='350' />
-          <Image src='/images/evanlogo.png' alt='/' width='500' height='350' />
+        <SimpleGrid columns={[1, 2, 2]} gap={6}>
+          <Image src="/images/glow.png" alt="/" width="500" height="350" />
+          <Image src="/images/HASHBROS.png" alt="/" width="500" height="350" />
+          <Image src="/images/5rnjs.png" alt="/" width="500" height="350" />
+          <Image src="/images/5rwp.png" alt="/" width="500" height="350" />
+          <Image src="/images/Horus.png" alt="/" width="1000" height="350" />
+          <Image src="/images/dfblogo.png" alt="/" width="500" height="350" />
+          <Image src="/images/hrsl.png" alt="/" width="500" height="350" />
+          <Image src="/images/evanlogo.png" alt="/" width="500" height="350" />
         </SimpleGrid>
       </Section>
-
     </Container>
   </Layout>
 )
